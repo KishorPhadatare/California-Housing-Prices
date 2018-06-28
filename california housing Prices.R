@@ -32,11 +32,12 @@ test.data= df[-select.data,]
 nrow(train.data)
 nrow(test.data)
 
-#Perform Feature Scaling
-train.data[-9]=scale(train.data[-9])
-head(train.data)
-test.data[-9]=scale(test.data[-9])
-head(test.data)
+#Perform Feature Scaling:
+#Note: For Random Forest Feature Scaling Is Not Required.
+#train.data[-9]=scale(train.data[-9])
+#head(train.data)
+#test.data[-9]=scale(test.data[-9])
+#head(test.data)
 
 
 #To perform Random Forest Operation
